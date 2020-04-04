@@ -105,13 +105,14 @@ contour(x1.grid.1, x2.grid.1, prob.1, levels = 0.5, labels = "",
 
 ###########################################################################################
 # Problem 2
+# install the keras package with its TensorFlow backend
 # devtools::install_github("rstudio/keras")
 
 #library(keras)
 #install_keras()
 
 #library(keras)
-#cifar <- dataset_cifar10()
+#cifar <- dataset_cifar10()     # read the data
 #str(cifar)
 
 x.train <- read.csv('/cifar_x_train.csv')
